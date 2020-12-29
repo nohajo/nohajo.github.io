@@ -1,12 +1,12 @@
 <html>
 <head>
-<title>Genesis : Robot parleur (chatterbot, ou chatbot)</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-<script language="JavaScript">
+ <title>Genesis : Robot parleur (chatterbot, ou chatbot)</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+ <script language="JavaScript">
 	window.onload = function() {
    document.getElementById('input').focus();
-   document.getElementById('sauveinput').value=""; 
-document.getElementById('input').value="";   
+   document.getElementById('sauveinput').value="";
+document.getElementById('input').value="";
 	document.getElementById('boutonEnvoyerForm').disabled=true;
    }
 
@@ -23,25 +23,30 @@ var verif = window.setInterval(validation,1800000); //toutes les 180sec
 
 function validation()
 {
-document.getElementById('sauveinput').value=document.getElementById('input').value; 
+document.getElementById('sauveinput').value=document.getElementById('input').value;
 document.getElementById('autorefresh').value="TRUE";
-document.getElementById('input').value=""; 
-    document.forms['form_parler'].submit();   
+document.getElementById('input').value="";
+    document.forms['form_parler'].submit();
 }
 
 function envoiemot(mot)
 {
-document.getElementById('input').value=mot; 
-    document.forms['form_parler'].submit();   
+document.getElementById('input').value=mot;
+    document.forms['form_parler'].submit();
 }
 </script>
-<link rel="stylesheet" type="text/css" href="defaut.css">
-</head> 
-<body>
+ <link rel="stylesheet" type="text/css" href="defaut.css">
+ </head>
+ <body>
 
-<a href="http://s140685957.onlinehome.fr/bot/logs/f6d323b4b051a4eeb90fe2748240b2d91609261681.htm">Votre historique</a> - <a href="chatterbot23.php">Reset</a><br><br><br><div id="divCorpsPage"><img id="imgVisage" src="intro.gif?1609261681"><div id="divEspaceEnhautDesMessages"></div><div id="divZoneMessagesEtEntreeTexte"><div id="divZoneEntreeTexte"><form method="POST" action="chatterbot23.php" id="form_parler"><bR><INPUT NAME="usersay" autocomplete="off" textInput="verifChampUsersay();" onInput="verifChampUsersay();" onKeydown="verifChampUsersay();" onpaste="verifChampUsersay();" onChange="verifChampUsersay();" id="input" size=60%"><INPUT NAME="sauveinput" id="sauveinput" TYPE="HIDDEN" ><INPUT NAME="var" value="" id="var" TYPE="HIDDEN" ><INPUT NAME="vartemp" value="" id="vartemp" TYPE="HIDDEN" ><INPUT NAME="cerveau" value="AR.txt" id="cerveau" TYPE="HIDDEN" ><INPUT NAME="vraiesvars" value="" id="vraiesvars" TYPE="HIDDEN" ><INPUT NAME="nom" value="" id="nom" TYPE="HIDDEN" ><INPUT NAME="noreut" value="" id="noreut" TYPE="HIDDEN" ><INPUT NAME="vraiesvars" value="" id="vraiesvars" TYPE="HIDDEN" ><INPUT NAME="premiereOuverturePage" value="non" id="vraiesvars" TYPE="HIDDEN"><INPUT NAME="numUniquePourLog" value="1609261681" id="numUniquePourLog" TYPE="HIDDEN"><INPUT NAME="rappel" value="" id="rappel" TYPE="HIDDEN" ><INPUT NAME="autorefresh" id="autorefresh" TYPE="HIDDEN" value="FALSE"><input type=submit id="boutonEnvoyerForm" value="Envoyer"></div></div><br><br><br>Instructions :<br>Tapez votre texte dans le cadre blanc ci-dessus, par exemple "bonjour" et pressez "entr&eacute;e" ou cliquez sur "envoyer".</bR></div></div><br><br>
-<div id="divPiedDePage">
-<hr>
-Toutes les conversations sont enregistr&eacute;es - trotter.poulpe (chez gmail.com) - <a href="documentation.htm">Genesis est Open Source</a> - <a href="http://chatterbots.fr/chatterbots.htm">Annuaire de chatterbots</a>
-<div>
-</html>
+<a href="chatterbot23.php">Reset</a>
+<br>
+<br>
+<br>
+<div id="divCorpsPage">
+	<img id="imgVisage" src="intro.gif?1609261681">
+	<div id="divEspaceEnhautDesMessages"></div>
+	<div id="divZoneMessagesEtEntreeTexte"><div id="divZoneEntreeTexte"><form method="POST" action="chatterbot23.php" id="form_parler"><bR><INPUT NAME="sauveinput" id="sauveinput" TYPE="HIDDEN" ><INPUT NAME="var" value="" id="var" TYPE="HIDDEN" ><INPUT NAME="vartemp" value="" id="vartemp" TYPE="HIDDEN" ><INPUT NAME="cerveau" value="AR.txt" id="cerveau" TYPE="HIDDEN" ><INPUT NAME="vraiesvars" value="" id="vraiesvars" TYPE="HIDDEN" ><INPUT NAME="nom" value="" id="nom" TYPE="HIDDEN" ><INPUT NAME="noreut" value="" id="noreut" TYPE="HIDDEN" ><INPUT NAME="vraiesvars" value="" id="vraiesvars" TYPE="HIDDEN" ><INPUT NAME="premiereOuverturePage" value="non" id="vraiesvars" TYPE="HIDDEN"><INPUT NAME="numUniquePourLog" value="1609261681" id="numUniquePourLog" TYPE="HIDDEN"><INPUT NAME="rappel" value="" id="rappel" TYPE="HIDDEN" ><INPUT NAME="autorefresh" id="autorefresh" TYPE="HIDDEN" value="FALSE"><input type=submit id="boutonEnvoyerForm" value="Envoyer"></div></div>
+
+	</body>
+ </html>
