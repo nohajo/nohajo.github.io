@@ -1,3 +1,0 @@
-﻿//
-rappel=Mes excuses monsieur, mais c'est l'heure de (*1).
-=Hého ?|Ya quelqu'un ?|T'es encore là ?|Houhou ?
