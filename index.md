@@ -44,9 +44,10 @@ document.getElementById('input').value=mot;
 <br>
 <br>
 <div id="divCorpsPage">
-	<img id="imgVisage" src="intro.gif?1609261681">
 	<div id="divEspaceEnhautDesMessages"></div>
-	<div id="divZoneMessagesEtEntreeTexte"><div id="divZoneEntreeTexte"><form method="POST" action="chatterbot23.php" id="form_parler"><bR><INPUT NAME="sauveinput" id="sauveinput" TYPE="HIDDEN" ><INPUT NAME="var" value="" id="var" TYPE="HIDDEN" ><INPUT NAME="vartemp" value="" id="vartemp" TYPE="HIDDEN" ><INPUT NAME="cerveau" value="AR.txt" id="cerveau" TYPE="HIDDEN" ><INPUT NAME="vraiesvars" value="" id="vraiesvars" TYPE="HIDDEN" ><INPUT NAME="nom" value="" id="nom" TYPE="HIDDEN" ><INPUT NAME="noreut" value="" id="noreut" TYPE="HIDDEN" ><INPUT NAME="vraiesvars" value="" id="vraiesvars" TYPE="HIDDEN" ><INPUT NAME="premiereOuverturePage" value="non" id="vraiesvars" TYPE="HIDDEN"><INPUT NAME="numUniquePourLog" value="1609261681" id="numUniquePourLog" TYPE="HIDDEN"><INPUT NAME="rappel" value="" id="rappel" TYPE="HIDDEN" ><INPUT NAME="autorefresh" id="autorefresh" TYPE="HIDDEN" value="FALSE"><input type=submit id="boutonEnvoyerForm" value="Envoyer"></div></div>
+	<div id="divZoneMessagesEtEntreeTexte">
+	<div id="divZoneEntreeTexte">
+		<form method="POST" action="Argesa/chatterbot23.php" id="form_parler"><bR><INPUT NAME="sauveinput" id="sauveinput" TYPE="HIDDEN" ><INPUT NAME="var" value="" id="var" TYPE="HIDDEN" ><INPUT NAME="vartemp" value="" id="vartemp" TYPE="HIDDEN" ><INPUT NAME="cerveau" value="AR.txt" id="cerveau" TYPE="HIDDEN" ><INPUT NAME="vraiesvars" value="" id="vraiesvars" TYPE="HIDDEN" ><INPUT NAME="nom" value="" id="nom" TYPE="HIDDEN" ><INPUT NAME="noreut" value="" id="noreut" TYPE="HIDDEN" ><INPUT NAME="vraiesvars" value="" id="vraiesvars" TYPE="HIDDEN" ><INPUT NAME="premiereOuverturePage" value="non" id="vraiesvars" TYPE="HIDDEN"><INPUT NAME="numUniquePourLog" value="1609261681" id="numUniquePourLog" TYPE="HIDDEN"><INPUT NAME="rappel" value="" id="rappel" TYPE="HIDDEN" ><INPUT NAME="autorefresh" id="autorefresh" TYPE="HIDDEN" value="FALSE"><input type=submit id="boutonEnvoyerForm" value="Envoyer"></div></div>
 
 	</body>
  </html>
